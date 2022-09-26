@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/my_featured_image"
+        android:src="@drawable/ic_launcher_background" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/the_slider_background"
+        app:layout_constraintBottom_toBottomOf="@+id/my_featured_image"
+        tools:ignore="ContentDescription" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

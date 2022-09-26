@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/calcel_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:onClick="custom"
+        android:background="@drawable/ic_baseline_close_24" />
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/person"
+        android:layout_gravity="center"
+        android:id="@+id/dialog_moj"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Name"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/nametxt"
+        />
+
+
+</LinearLayout>
